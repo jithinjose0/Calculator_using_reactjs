@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    overflow: hidden;
+    
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px; /* You can adjust the width as needed */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    gap: 20px;
+  }
+  
+  .span {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 5px #1c1c1d;
+    border-radius: 38px;
+    background-color: #cacfcc;
+  }
+
+  .span {cursor: grab;}
+/* 
+  span:hover {
+    background-color: #85c8f5;
+  } */
+  
+  .operator {
+    background-color: #85c8f5; 
+    color: white;
+  }
+  /* .operator:hover {
+    background-color:#49a6e7 ;
+  } */
+  
+
+  .inputBoxs {
+    width: 277px;
+    height: 65px;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    overflow-y: scroll;
+  }
+  
+  
